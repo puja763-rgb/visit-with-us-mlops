@@ -17,7 +17,7 @@ st.write(
 )
 
 model = joblib.load(
-    "models/tourism_purchase_model.pkl"
+    "tourism_purchase_model.pkl"
 )
 
 age = st.number_input(
